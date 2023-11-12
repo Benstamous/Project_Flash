@@ -1,0 +1,13 @@
+.bg-dark{
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.float {
+    font-size: 300%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    white-space: nowrap;
+}
