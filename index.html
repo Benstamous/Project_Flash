@@ -13,7 +13,8 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark sticky-top"><!--changed to sticky-top-->
+    <!--NAVBAR-->
+    <nav class="navbar navbar-dark sticky-top"><!--changed to sticky-top-->
         <div class="container-fluid">
           <img src="./images/flash-logo.png" alt="logo" width="70">
           <a class="navbar-brand" href="#">Flash</a>
@@ -22,9 +23,10 @@
           </button>
           <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Flash</h5>
               <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
+            <!--DRAWER-->
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
@@ -36,35 +38,80 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Meet the Developers</a>
                 </li>
+
+                <!--REPORT FORM-->
+                <div class="container-report">
+                  <div class="row row-content text-white mt-5 mb-5">
+                      <div class="col-12 ml-5">
+                        <h4>Report an issue</h4>
+                        <hr />
+                      </div>
+                        <div class="col-md-10 ml-5 mr-5">
+                          <form>
+                              <div class="form-group row mt-3">
+                                <label for="firstName" class="col-md-2 col-form-label">Game</label>
+                                <div class="col-md-10">
+                                    <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Game name" />
+                                </div>
+                              </div>
+                              <div class="form-group row mt-3">
+                                <label for="email" class="col-md-2 col-form-label">Email</label>
+                                <div class="col-md-10">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your email"/>
+                                </div>
+                              </div>
+                              <div class="form-group row mt-3">
+                                <label for="feedback" class="col-md-2 col-form-label">Issue</label>
+                                <div class="col-md-10"> 
+                                    <textarea class="form-control" id="feedback" name="Feedback" rows="8"></textarea>
+                                </div>
+                              </div>
+                              <div class="form-group row mt-3">
+                                <div class="offset-md-2 col-md-10">
+                                    <button type="submit" class="btn btn-secondary">SEND</button>
+                                </div>
+                              </div>
+                          </form>
+                          <div class="support">
+                            <hr>
+                            <p>support: flash@outlook.com</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
               </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search Games" aria-label="Search">
-                <button class="btn btn-success" type="submit">Search</button>
-              </form>
-              <div class="tenor-gif-embed" data-postid="17547456" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/gaming-game-logo-glitch-gif-17547456">Gaming Game GIF</a>from <a href="https://tenor.com/search/gaming-gifs">Gaming GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
             </div>
           </div>
         </div>
       </nav>
 
+      <!--GAME CARD-->
       <div class="card">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="images/not-realeased-1.png" class="img-fluid rounded-start" alt="...">
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8 card-captions">
             <div class="card-body">
-              <h5 class="card-title">Game 1</h5>
+              <h1 class="card-title">Game 1</h1>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor metus eget est iaculis sodales. Cras vehicula neque odio, in auctor mi dignissim eu. In rhoncus viverra rutrum. Nam elit orci, bibendum vitae tortor sit amet, aliquam tincidunt velit. Integer facilisis in metus ac convallis. Donec gravida tincidunt ipsum id scelerisque. Nunc tristique purus eu justo tincidunt mollis. Donec efficitur tincidunt massa vitae accumsan. Proin gravida ante nec pellentesque malesuada. Morbi porttitor erat ligula, et blandit massa vehicula quis. Curabitur consequat, nibh eget vulputate viverra, nisl metus fermentum erat, vitae egestas lorem turpis nec metus. Duis id tincidunt odio, sit amet varius enim. Fusce eleifend finibus risus vel pretium.
 
                 Vestibulum accumsan nec urna vel ultricies. Nullam semper facilisis lacus sit amet semper. Nulla interdum rutrum enim, sed sollicitudin urna facilisis ac. Donec pellentesque molestie cursus. Nulla elementum lorem et tempus molestie. Vestibulum vestibulum lacus est, a auctor sem aliquet id. Sed sagittis sit amet nulla ut pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean tincidunt orci a mi vulputate, eget tristique leo mollis. Vivamus malesuada tempor nibh non rhoncus. Vivamus pretium porttitor justo mollis interdum.</p>
-                <a href="#" class="card-link"><b>Play here</b></a>
+
+                <br>
+
+                <h4>Developer: Hazel Jeanne Pena</h3>
+
+                <br>
+
+                <a href="#" class="card-link"><h5>Play here</h5></a>
             </div>
           </div>
         </div>
       </div>
+
+      <!--FOOTER-->
       <footer>
-        
         <div class="dfooter">
           <hr>
           <p>support: flash@outlook.com</p>
