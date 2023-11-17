@@ -3,6 +3,10 @@ body {
     font-family: 'Kdam Thmor Pro', sans-serif;;
 }
 
+navbar-brand{
+    font-size:xx-large larger;
+}
+
 .card{
     margin-top: 10%;
 }
@@ -21,7 +25,7 @@ body {
     background-image: linear-gradient(180deg, #cb2d6f,#501f3a, #0f2920);}
 
 .navbar{
-    background-image: linear-gradient(180deg, #0f2920, #cb2d6f,#0f2920,#501f3a);
+    background-image: linear-gradient(180deg, #0f292f, #cb2d6f,#0f2920,#501f3a);
 }
 
 .container-report{
