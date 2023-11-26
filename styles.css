@@ -10,14 +10,21 @@ body {
 }
 
 .heading-container {
-    background-color: #CB2D6F;
+    background-image: linear-gradient(#501F3A,#CB2D6F,#501F3A,#0F292F);
+    display: flex;    
+    justify-content: center;
+    gap: 100px;
 }
+
+/* #project-title {
+    align-items: center;
+} */
 
 #web-title {
     padding-left: 15px;    
     font-size: 1.8rem;
     font-weight: 900;
-    color: #000;
+    color: #0F292F;
 }
 
 
@@ -30,8 +37,8 @@ body {
 #team-header {
     font-size: 2.5rem;
     font-weight: 800;
-    -webkit-text-stroke: 2px black;
-    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px #0F292F;
+    -webkit-text-fill-color: #CCCCCC;
 }
 
 #main-container {
@@ -40,22 +47,22 @@ body {
     grid-template-columns: auto auto;
     justify-content: center;
     column-gap: 150px;
-    background-color: #1e1e1e;
+    background-color: #0F292F;
 }
 
 .personImg {
     width: 26vw;        
     border: 3px solid ;  
     border-radius: 12px;
-    border-image: linear-gradient(to left, #092277, #ed003e) 1;
+    border-image: linear-gradient(to left, #14A098, #CB2D6F) 1;
 }
 
 .name {
     margin: 5px 0px;
     text-align: center;
     font-size: 1.8rem;
-    -webkit-text-stroke: 1px black;
-    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px #0F292F;
+    -webkit-text-fill-color: #CCCCCC;
 }
 
 .bio-container {
@@ -66,7 +73,7 @@ body {
 .person-bio {
     font-size: 1rem;
     margin-top: 4px;
-    color: #fff;
+    color: #CCCCCC;
 }
 
 .socials-container {
@@ -89,7 +96,7 @@ body {
 }
 
 .fa-envelope {
-    color: #fff;
+    color: #CCCCCC;
 }
 
 .fa-linkedin:hover, .fa-github:hover, .fa-envelope:hover {
@@ -99,6 +106,6 @@ body {
 
 footer {
     text-align: center;
-    background-color: #ed003e;
+    background-image: linear-gradient(#501F3A,#CB2D6F,#501F3A,#0F292F);
     font-weight: 600;
 }
