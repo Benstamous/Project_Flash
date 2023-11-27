@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    margin: 0;
+    width: 100vw;
+    font-family: 'Tomorrow', sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.heading-container {
+    background-image: linear-gradient(#501F3A,#CB2D6F,#501F3A,#0F292F);
+    display: flex;    
+    justify-content: center;
+    gap: 100px;
+}
+
+/* #project-title {
+    align-items: center;
+} */
+
+#web-title {
+    padding-left: 15px;    
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #0F292F;
+}
+
+
+.grid-item1 {
+    grid-column: 1 / span 2;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#team-header {
+    font-size: 2.5rem;
+    font-weight: 800;
+    -webkit-text-stroke: 2px #0F292F;
+    -webkit-text-fill-color: #CCCCCC;
+}
+
+#main-container {
+    width: 100vw;    
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 150px;
+    background-color: #0F292F;
+}
+
+.personImg {
+    width: 26vw;        
+    border: 3px solid ;  
+    border-radius: 12px;
+    border-image: linear-gradient(to left, #14A098, #CB2D6F) 1;
+}
+
+.name {
+    margin: 5px 0px;
+    text-align: center;
+    font-size: 1.8rem;
+    -webkit-text-stroke: 1px #0F292F;
+    -webkit-text-fill-color: #CCCCCC;
+}
+
+.bio-container {
+    width: 30vw;
+    margin-bottom: 15px;
+}
+
+.person-bio {
+    font-size: 1rem;
+    margin-top: 4px;
+    color: #CCCCCC;
+}
+
+.socials-container {
+   margin-bottom: 70px;
+   display: flex;
+   gap: 35px;
+   justify-content: center;
+}
+
+.fa-linkedin, .fa-github, .fa-envelope {
+    margin: 5px 5px;
+}
+
+.fa-linkedin {
+    color: #0077B5;
+}
+
+.fa-github {
+    color: #A29992;
+}
+
+.fa-envelope {
+    color: #CCCCCC;
+}
+
+.fa-linkedin:hover, .fa-github:hover, .fa-envelope:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(#501F3A,#CB2D6F,#501F3A,#0F292F);
+    font-weight: 600;
+}
