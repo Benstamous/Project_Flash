@@ -18,7 +18,8 @@ h5 {
     color: white;
 }
 
-h1 {
+h2 {
+    font-size: 2.5rem;
     -webkit-text-stroke: 2px black;
     -webkit-text-fill-color: white;
     font-weight: 800;
