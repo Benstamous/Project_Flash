@@ -1,0 +1,149 @@
+/* Color Pallette
+
+#501F3A - dark burgandy wine color
+#CB2D6F - pinkish red 
+#CCCCCC - light grey
+#14A098 - teal
+#0F292F - dark blue
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+
+body {
+    background-color: #0F292F;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+.main {
+    min-height: 100vh;
+
+}
+ .dfooter {
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        background-image: linear-gradient(#0F292F,#501F3A,#CB2D6F);  
+    }
+ 
+
+.card {
+
+    background-image: linear-gradient(#501f3a,#14A098,#0b5753,#0b5753, #06413e, #0b5753,#0b5753,#14A098, #501f3a);
+    border: 1px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* or "contain" based on your preference */
+}
+
+.card-text {
+    color:#CCCCCC;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.navbar {
+    padding: 30px;
+    margin: 0;
+    background-image: linear-gradient(#501F3A,#CB2D6F,#501F3A,#0F292F); /*changed by HP */ 
+    height: 10rem; /*added by HP*/
+}
+
+
+
+.offcanvas-body {
+    background-image: linear-gradient(#CB2D6F,#501F3A,#0F232F);
+}
+
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-size:xx-large larger;
+    
+}
+/* q: */
+
+.carousel-caption {
+    top: 75%;
+    transform: translateY(-50%);
+    bottom: initial;
+
+}
+
+.carousel-item {
+    font-size: 100%;
+    font-family: 'Tomorrow', sans-serif;
+    color: #CCCCCC;
+    height: 500px;
+    width: 800px;
+}
+
+.carousel-inner {
+    height: 500px;
+    width: 800px;
+}
+.container {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    max-width: 680px;
+    
+  }
+/* HP commented this out because this is what's causing the issue on LA's report form.
+.row{
+    padding: 30px;
+    justify-content: center;
+    width:80%;
+    height:80%;
+}
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px; 
+} 
+*/
+
+p {
+    color: #CCCCCC;
+    align-items: center;
+}
+h2 {
+    color: #CCCCCC;
+}
+
+h1 {
+    color: #CCCCCC;
+    font-size: 40px;
+    font-weight: 800;
+    -webkit-text-stroke: 2px #0f292f;
+    -webkit-text-fill-color: #CCCCCC;
+    text-align: center;
+    padding: 10px;
+}
+
+/* 
+    font weight 800;
+    font size:2.5;
+    -webkit-text-stroke: 2px #0f292f;
+    -webkit-text-fill-color: #CCCCCC;
+*/
