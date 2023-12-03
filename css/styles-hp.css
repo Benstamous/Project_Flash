@@ -1,0 +1,66 @@
+body {
+    background-color: #0f292f;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+navbar-brand{
+    font-size:xx-large larger;
+}
+
+.game-image{
+    margin-bottom: 5%; /* This margin provides space between the image and the game description when the viewport is switched to mobile*/
+    width: 25vw;
+    border: 3px solid ; /* Applied Cassandra's card/ from .personImg */
+    border-radius: 12px; /* Applied Cassandra's card/ from .personImg */
+    border-image: linear-gradient(to left, #14A098, #CB2D6F) 1; /* Applied Cassandra's card/ from .personImg */
+}
+
+.back-button{
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+
+.offcanvas-body{
+    background-image: linear-gradient(180deg, #cb2d6f,#501f3a, #0f2920);}
+
+.navbar{
+    background-image: linear-gradient(#501F3A,#CB2D6F,#501F3A,#0F292F);
+    height: 10rem;
+}
+
+.container-report{
+    margin-top: 50%;
+}
+
+.card {
+    background-image: linear-gradient(180deg, #cb2d6f,#501f3a, #0f2920);
+    border-radius: 10%;
+}
+
+.card-captions{
+    margin-top: 3%;
+    color:white
+}
+.dfooter {
+     /* This margin provides enough space to cover the extra space in footer*/
+    text-align: center;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 15rem;
+    background-image: linear-gradient(#0F292F,#501F3A,#CB2D6F);
+}
+
+hr{
+    color: white;
+}
+
+.support{
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4.5rem; 
+}
