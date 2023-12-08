@@ -9,8 +9,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="css/styles-hp.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
 </head>
@@ -18,14 +17,14 @@
     <!--NAVBAR-->
     <nav class="navbar navbar-dark sticky-top"><!--changed to sticky-top-->
         <div class="container-fluid">
-          <img src="./images/flash-logo.png" alt="logo" width="70">
+          <img src="./images/flashLogo.png" alt="logo" width="120" height="96">
           <a class="navbar-brand" href="#"><h1>Project_Flash</h1><h5>javascript games library</h5></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div class="offcanvas-header">
-              <img src="./images/flash-logo.png" alt="logo" width="70">
+              <img src="./images/flashLogo.png" alt="logo" width="70">
               <h5 class="offcanvas-title ml=-5" id="offcanvasDarkNavbarLabel">Project_Flash </h5>
               <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
@@ -36,10 +35,10 @@
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Games</a>
+                  <a class="nav-link" href="gameLibraryPage.html">Games</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Meet the Developers</a>
+                  <a class="nav-link" href="about.html">Meet the Developers</a>
                 </li>
 
                 <!--REPORT FORM-->
@@ -88,39 +87,46 @@
         </div>
       </nav>
 
-      <button type="button" class="btn btn-outline-primary back-button " href="#">&#8592; back to Games</button>
+    <!--GAME-->
 
-      <!--GAME CARD-->
-      <div class="card">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="images/not-realeased-1.png" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8 card-captions">
-            <div class="card-body">
-              <h1 class="card-title">Game 3</h1>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor metus eget est iaculis sodales. Cras vehicula neque odio, in auctor mi dignissim eu. In rhoncus viverra rutrum. Nam elit orci, bibendum vitae tortor sit amet, aliquam tincidunt velit. Integer facilisis in metus ac convallis. Donec gravida tincidunt ipsum id scelerisque. Nunc tristique purus eu justo tincidunt mollis. Donec efficitur tincidunt massa vitae accumsan. Proin gravida ante nec pellentesque malesuada. Morbi porttitor erat ligula, et blandit massa vehicula quis. Curabitur consequat, nibh eget vulputate viverra, nisl metus fermentum erat, vitae egestas lorem turpis nec metus. Duis id tincidunt odio, sit amet varius enim. Fusce eleifend finibus risus vel pretium.
+    <div class="container">
+      <a href="gameLibraryPage.html">
+        <button type="button" class="btn btn-outline-primary back-button" >&#8592; back to Games</button>
+      </a>
+      <div class="row">
+        <div class="col-6.5 text-center">
+          <img src="images/not-realeased-1.png" class="game-image" alt="Game 1">
+        </div>
+        <div class="col text-white">
+          <h1 class="text-center">Game 3</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor metus eget est iaculis sodales. Cras vehicula neque odio, in auctor mi dignissim eu. In rhoncus viverra rutrum. Nam elit orci, bibendum vitae tortor sit amet, aliquam tincidunt velit. Integer facilisis in metus ac convallis. Donec gravida tincidunt ipsum id scelerisque. Nunc tristique purus eu justo tincidunt mollis. Donec efficitur tincidunt massa vitae accumsan. Proin gravida ante nec pellentesque malesuada. Morbi porttitor erat ligula, et blandit massa vehicula quis. Curabitur consequat, nibh eget vulputate viverra, nisl metus fermentum erat, vitae egestas lorem turpis nec metus. Duis id tincidunt odio, sit amet varius enim. Fusce eleifend finibus risus vel pretium.
 
-                Vestibulum accumsan nec urna vel ultricies. Nullam semper facilisis lacus sit amet semper. Nulla interdum rutrum enim, sed sollicitudin urna facilisis ac. Donec pellentesque molestie cursus. Nulla elementum lorem et tempus molestie. Vestibulum vestibulum lacus est, a auctor sem aliquet id. Sed sagittis sit amet nulla ut pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean tincidunt orci a mi vulputate, eget tristique leo mollis. Vivamus malesuada tempor nibh non rhoncus. Vivamus pretium porttitor justo mollis interdum.</p>
+            Vestibulum accumsan nec urna vel ultricies. Nullam semper facilisis lacus sit amet semper.</p>
 
-                <br>
+          <h4>Developer: TBD</h3>
 
-                <h4>Developer: TBD</h3>
+          <br>
 
-                <br>
-
-                <a href="#" class="card-link"><h5>Play here</h5></a>
-            </div>
-          </div>
+          <a href="#"><h5>Play here</h5></a>
         </div>
       </div>
+    </div>
 
-      <!--FOOTER-->
       <footer>
-        <div class="dfooter">
-          <hr>
-          <p>support: flash@outlook.com</p>
+        <div class="dfooter" style="display: flex; justify-content: center; align-items: center;">
+            <br>
+            <ul class="navbar-nav mt-5">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gameLibraryPage.html">Games</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  href="about.html">Meet the Developer</a>
+                </li>
+            </ul>
         </div>
-    </footer>
+      </footer>
 </body>
 </html>
