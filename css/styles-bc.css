@@ -4,6 +4,10 @@
     background: rgba(0, 0, 0, 0.6) !important;
 }
 
+navbar-brand{
+    font-size:xx-large larger;
+}
+
 .float {
     font-size: 300%;
     position: absolute;
