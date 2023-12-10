@@ -17,12 +17,14 @@ body {
     min-height: 100vh;
 
 }
- .dfooter {
-        position: sticky;
-        bottom: 0;
-        width: 100%;
-        background-image: linear-gradient(#0F292F,#501F3A,#CB2D6F);  
-    }
+.dfooter {
+    bottom: 0;
+    text-align: center;
+    color: white;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(#0F292F,#501F3A,#CB2D6F);  
+}
  
 
 .card {
