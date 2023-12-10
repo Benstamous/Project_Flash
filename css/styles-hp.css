@@ -3,10 +3,6 @@ body {
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-navbar-brand{
-    font-size:xx-large larger;
-}
-
 .game-image{
     margin-bottom: 5%; /* This margin provides space between the image and the game description when the viewport is switched to mobile*/
     width: 25vw;
