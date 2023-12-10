@@ -1,20 +1,23 @@
 {
-  "name": "flash",
+  "name": "project_flash",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html ",
+  "description": "A JavaScript game library website",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benstamous/Project_Flash.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "4.5": "^0.5.0",
-    "bootstrap": "^5.3.2",
-    "font-awesome": "^4.7.0"
+  "bugs": {
+    "url": "https://github.com/Benstamous/Project_Flash/issues"
   },
+  "homepage": "https://github.com/Benstamous/Project_Flash#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
   }
