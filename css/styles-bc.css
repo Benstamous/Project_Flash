@@ -12,6 +12,11 @@
     white-space: nowrap;
 }
 
+.card-img{
+    border: 3px solid ; /* Applied Cassandra's card/ from .personImg */
+    border-image: linear-gradient(to left, #14A098, #CB2D6F) 1; /* Applied Cassandra's card/ from .personImg */
+}
+
 h5 {
     color: white;
 }
