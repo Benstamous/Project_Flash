@@ -1,17 +1,25 @@
 body {
     margin: 0;
-    width: 100vw;
+    /* width: 100vw; HP commented this out because it's causing issue w/ the alignment of the toggle button*/ 
     font-family: 'Kdam Thmor Pro', sans-serif;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    background-color: #0f292f; /* HP added the background to match the other pages */
 }
 
-.heading-container {
+/* HP added .navbar and .offcanvas-body and .container-report*/
+.navbar{
     background-image: linear-gradient(#501F3A,#CB2D6F,#501F3A,#0F292F);
-    display: flex;    
-    justify-content: center;
-    gap: 100px;
+    height: 10rem;
+}
+
+.offcanvas-body{
+    background-image: linear-gradient(180deg, #cb2d6f,#501f3a, #0f2920);
+}
+
+.container-report{
+    margin-top: 50%;
 }
 
 /* #project-title {
@@ -45,7 +53,7 @@ body {
     grid-template-columns: auto auto;
     justify-content: center;
     column-gap: 150px;
-    background-color: #0F292F;
+    /* background-color: #0F292F; No longer needed as this is already in body element */
 }
 
 .personImg {
@@ -110,8 +118,5 @@ body {
 .dfooter {
     bottom: 0;
     text-align: center;
-    color: white;
-    align-items: center;
-    width: 100%;
-    background-image: linear-gradient(#0F292F,#501F3A,#CB2D6F);  
+    background-image: linear-gradient(#501F3A,#CB2D6F,#501F3A,#0F292F);
 }

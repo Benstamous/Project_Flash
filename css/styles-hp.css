@@ -4,11 +4,11 @@ body {
 }
 
 .game-image{
-    margin-bottom: 5%; /* This margin provides space between the image and the game description when the viewport is switched to mobile*/
-    width: 25vw;
+    max-width: 70%; /* Added to make sure each game image will have the same width */
+    margin-bottom: 2%; /* This margin provides space between the image and the game description when the viewport is switched to mobile*/
     border: 3px solid ; /* Applied Cassandra's card/ from .personImg */
-    border-radius: 12px; /* Applied Cassandra's card/ from .personImg */
     border-image: linear-gradient(to left, #14A098, #CB2D6F) 1; /* Applied Cassandra's card/ from .personImg */
+    padding: 0; /* Added to remove the padding showing in left & right side */
 }
 
 .back-button{
@@ -37,8 +37,8 @@ body {
     margin-top: 3%;
     color:white
 }
+
 .dfooter {
-     /* This margin provides enough space to cover the extra space in footer*/
     text-align: center;
     color: white;
     position: sticky;
