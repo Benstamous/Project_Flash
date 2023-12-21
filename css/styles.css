@@ -33,7 +33,6 @@ body {
 .dfooter {
     text-align: center;
     color: white;
-    position: sticky;
     bottom: 0;
     width: 100%;
     height: 15rem;

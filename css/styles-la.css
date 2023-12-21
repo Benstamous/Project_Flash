@@ -99,19 +99,7 @@ body {
     max-width: 680px;
     
   }
-/* HP commented this out because this is what's causing the issue on LA's report form.
-.row{
-    padding: 30px;
-    justify-content: center;
-    width:80%;
-    height:80%;
-}
-.row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px; 
-} 
-*/
+
 
 p {
     color: #CCCCCC;
@@ -121,17 +109,3 @@ h2 {
     color: #CCCCCC;
 }
 
-/* h1 {
-    color: #CCCCCC;
-    font-size: 40px;
-    font-weight: 800;
-    text-align: center;
-    padding: 10px;
-} */
-
-/* 
-    font weight 800;
-    font size:2.5;
-    -webkit-text-stroke: 2px #0f292f;
-    -webkit-text-fill-color: #CCCCCC;
-*/
