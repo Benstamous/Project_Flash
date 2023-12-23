@@ -114,9 +114,12 @@ body {
     list-style-type: none;
 }
 
-
 .dfooter {
-    bottom: 0;
     text-align: center;
-    background-image: linear-gradient(#501F3A,#CB2D6F,#501F3A,#0F292F);
+    color: white;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 15rem;
+    background-image: linear-gradient(#0F292F,#501F3A,#CB2D6F);  
 }
