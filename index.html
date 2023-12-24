@@ -1,208 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <!-- Style Sheet, and specialty links -->
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles-la.css"><!--HP updated the CSS path-->
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles-la.css" />
+    <!--HP updated the CSS path-->
 
     <title>Flash</title>
-</head>
-<body>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark sticky-top">
+      <!--changed to sticky-top-->
+      <!--HP replaced the all codes in nav to match game 1.html-->
+      <div class="container-fluid">
+        <a href="#">
+          <img
+            src="./images/flashLogo.png"
+            alt="logo"
+            width="120"
+            height="96"
+          />
+        </a>
+        <a class="navbar-brand" href="#">
+          <h1>Project_Flash</h1>
+          <h5>Javascript Games Library</h5>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <img src="./images/flashLogo.png" alt="logo" width="70" />
+            <h5 class="offcanvas-title ml=-5" id="offcanvasDarkNavbarLabel">
+              Project_Flash
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <!--DRAWER-->
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gameLibraryPage.html">Games</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Meet the Developers</a>
+              </li>
 
-<nav class="navbar navbar-dark sticky-top"><!--changed to sticky-top--> <!--HP replaced the all codes in nav to match game 1.html-->
-    <div class="container-fluid">
-      <a href="#">
-        <img src="./images/flashLogo.png" alt="logo" width="120" height="96">
-      </a>
-      <a class="navbar-brand" href="#">
-        <h1>Project_Flash</h1>
-        <h5>Javascript Games Library</h5>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-        <div class="offcanvas-header">
-          <img src="./images/flashLogo.png" alt="logo" width="70">
-          <h5 class="offcanvas-title ml=-5" id="offcanvasDarkNavbarLabel">Project_Flash </h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <!--DRAWER-->
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gameLibraryPage.html">Games</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">Meet the Developers</a>
-            </li>
-
-            <!--REPORT FORM-->
-            <div class="container-report">
-              <div class="row row-content text-white mt-5 mb-5">
+              <!--REPORT FORM-->
+              <div class="container-report">
+                <div class="row row-content text-white mt-5 mb-5">
                   <div class="col-12 ml-5">
                     <h4>Report an issue</h4>
                     <hr />
                   </div>
-                    <div class="col-md-10 ml-5 mr-5">
-                      <form>
-                          <div class="form-group row mt-3">
-                            <label for="firstName" class="col-md-2 col-form-label">Game</label>
-                            <div class="col-md-10">
-                                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Game name" />
-                            </div>
-                          </div>
-                          <div class="form-group row mt-3">
-                            <label for="email" class="col-md-2 col-form-label">Email</label>
-                            <div class="col-md-10">
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Your email"/>
-                            </div>
-                          </div>
-                          <div class="form-group row mt-3">
-                            <label for="feedback" class="col-md-2 col-form-label">Issue</label>
-                            <div class="col-md-10"> 
-                                <textarea class="form-control" id="feedback" name="Feedback" rows="8"></textarea>
-                            </div>
-                          </div>
-                          <div class="form-group row mt-3">
-                            <div class="offset-md-2 col-md-10">
-                                <button type="submit" class="btn btn-secondary">SEND</button>
-                            </div>
-                          </div>
-                      </form>
-                      <div class="support">
-                        <hr>
-                        <p>support: flash@outlook.com</p>
+                  <div class="col-md-10 ml-5 mr-5">
+                    <form>
+                      <div class="form-group row mt-3">
+                        <label for="firstName" class="col-md-2 col-form-label"
+                          >Game</label
+                        >
+                        <div class="col-md-10">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="firstName"
+                            name="firstName"
+                            placeholder="Game name"
+                          />
+                        </div>
+                      </div>
+                      <div class="form-group row mt-3">
+                        <label for="email" class="col-md-2 col-form-label"
+                          >Email</label
+                        >
+                        <div class="col-md-10">
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            name="email"
+                            placeholder="Your email"
+                          />
+                        </div>
+                      </div>
+                      <div class="form-group row mt-3">
+                        <label for="feedback" class="col-md-2 col-form-label"
+                          >Issue</label
+                        >
+                        <div class="col-md-10">
+                          <textarea
+                            class="form-control"
+                            id="feedback"
+                            name="Feedback"
+                            rows="8"
+                          ></textarea>
+                        </div>
+                      </div>
+                      <div class="form-group row mt-3">
+                        <div class="offset-md-2 col-md-10">
+                          <button type="submit" class="btn btn-secondary">
+                            SEND
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                    <div class="support">
+                      <hr />
+                      <p>support: flash@outlook.com</p>
                     </div>
                   </div>
+                </div>
               </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      class="container-md d-flex justify-content-center w-200 p-3 h-200"
+      style="padding-top: 20px"
+    >
+      <div id="homeCarousel" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#homeCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#homeCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#homeCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#homeCarousel"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="/images/not-realeased-1.png"
+              class="d-block w-100"
+              style="height: 500px; width: 800px"
+            />
+            <!--BC changed image path-->
+            <div class="carousel-caption d-none d-md-block">
+              <br />
+              <br />
+              <br />
+              <h5>JavaScript Fighters</h5>
+              <p>2-player Fighting Game</p>
             </div>
-          </ul>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="/images/not-realeased-1.png"
+              class="d-block w-100"
+              style="height: 500px; width: 800px"
+            />
+            <!--HP changed image path-->
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Game 2</h5>
+              <p>Description</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/images/not-realeased-1.png"
+              class="d-block w-100"
+              style="height: 500px; width: 800px"
+            />
+            <!--HP changed image path-->
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Game 3</h5>
+              <p>Description</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/images/not-realeased-1.png"
+              class="d-block w-100"
+              style="height: 500px; width: 800px"
+            />
+            <!--HP changed image path-->
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Game 4</h5>
+              <p>Description</p>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#homeCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#homeCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </div>
-  </nav>
 
-        <div class="container-md d-flex justify-content-center w-200 p-3 h-200" style="padding-top: 20px;" >
-            
-                <div id="homeCarousel" class="carousel slide" >
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="./images/javaScriptFighters.png" class="d-block w-100" style="height: 500px; width: 800px;"> <!--BC changed image path-->
-                            <div class="carousel-caption d-none d-md-block">
-                                <br>
-                                <br>
-                                <br>
-                            <h5>JavaScript Fighters</h5>
-                            <p>2-player Fighting Game</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img src="./images/2.png" class="d-block w-100" style="height: 500px; width: 800px;"> <!--HP changed image path-->
-                            <div class="carousel-caption d-none d-md-block">
-                            <h5>Game 2</h5>
-                            <p>Description</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./images/3.png" class="d-block w-100" style="height: 500px; width: 800px;"> <!--HP changed image path-->
-                            <div class="carousel-caption d-none d-md-block">
-                            <h5>Game 3</h5>
-                            <p>Description</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./images/4.png" class="d-block w-100" style="height: 500px; width: 800px;"> <!--HP changed image path-->
-                            <div class="carousel-caption d-none d-md-block">
-                            <h5>Game 4</h5>
-                            <p>Description</p>
-                            </div>
-                    </div>
-
-                    <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-    
     <main>
-        
-        <div class="container-md d-flex justify-content-center" style="width: 40%;">
-            <div class="row row-cols-2 row-cols-md-1 g-2 g-md-3"> 
-                <div class="col-12">
-                    <div class="card" >
-                        <img src="./images/javaScriptFighters.png" class="object-fit-contain" style="border-radius: 10px;"> <!--BC changed image path-->
-                        <p class="card-text">New Release: JavaScript Fighters</p>
-                    </div>
-                </div>
-    
-                <div class="col-12">
-                    <div class="card">
-                        <img src="./images/2.png" class="object-fit-contain" style="border-radius: 10px;"> <!--HP changed image path-->
-                        <p class="card-text">This game has not been released</p>
-                    </div>
-                </div>
-
-                <div class="col-12">
-                    <div class="card">
-                        <img src="./images/3.png" class="object-fit-contain" style="border-radius: 10px;"> <!--HP changed image path-->
-                        <p class="card-text">This game has not been released</p>
-                    </div>
-                </div>
-
-                <div class="col-12">
-                    <div class="card">
-                        <img src="./images/4.png" class="object-fit-contain" style="border-radius: 10px;" > <!--HP changed image path-->
-                        <p class="card-text">This game has not been released</p>
-                    </div>
-                </div>
-
+      <div
+        class="container-md d-flex justify-content-center"
+        style="width: 40%"
+      >
+        <div class="row row-cols-2 row-cols-md-1 g-2 g-md-3">
+          <div class="col-12">
+            <div class="card">
+              <img
+                src="./images/not-realeased-1.png"
+                class="object-fit-contain"
+                style="border-radius: 10px"
+              />
+              <!--BC changed image path-->
+              <p class="card-text">New Release: JavaScript Fighters</p>
             </div>
+          </div>
+
+          <div class="col-12">
+            <div class="card">
+              <img
+                src="./images/not-realeased-1.png"
+                class="object-fit-contain"
+                style="border-radius: 10px"
+              />
+              <!--HP changed image path-->
+              <p class="card-text">This game has not been released</p>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="card">
+              <img
+                src="./images/not-realeased-1.png"
+                class="object-fit-contain"
+                style="border-radius: 10px"
+              />
+              <!--HP changed image path-->
+              <p class="card-text">This game has not been released</p>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="card">
+              <img
+                src="./images/not-realeased-1.png"
+                class="object-fit-contain"
+                style="border-radius: 10px"
+              />
+              <!--HP changed image path-->
+              <p class="card-text">This game has not been released</p>
+            </div>
+          </div>
         </div>
+      </div>
     </main>
-    <footer class="footer mt-auto fixed-bottom">
-        <div class="dfooter">
-            <ul class="navbar-nav" style="display: flex; justify-content: center; align-items: center;">
-                <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="gameLibraryPage.html">Games</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="about.html">Meet the Developer</a>
-                </li>
-            </ul>
-        </div>
+    <footer>
+      <div
+        class="dfooter"
+        style="display: flex; justify-content: center; align-items: center"
+      >
+        <br />
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link active text-white"
+              aria-current="page"
+              href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#"
+              >Games</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active text-white"
+              aria-current="page"
+              href="about.html"
+              >Meet the Developer</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
     <!-- center three links from the drawr in the footer -->
     <!--google fonts tomorrow is what we are using-->
 
     <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-aMp0j+u1/KxthGzboB5PW/SsVPh6ft9lE+whBpOfpbcvE+8a8QgnZGgFPOXPfFz9" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha384-aMp0j+u1/KxthGzboB5PW/SsVPh6ft9lE+whBpOfpbcvE+8a8QgnZGgFPOXPfFz9"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
