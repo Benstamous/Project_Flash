@@ -64,33 +64,33 @@ body {
     height: 10rem; /*added by HP*/
 }
 
-
-
 .offcanvas-body {
     background-image: linear-gradient(#CB2D6F,#501F3A,#0F232F);
 }
 
 /* q: */
 
-.carousel-caption {
-    top: 75%;
-    transform: translateY(-50%);
-    bottom: initial;
+/* HP Changed the carousel styles*/
 
+.carousel{
+    margin-top: 3%;
+    margin-bottom: 7%;
 }
 
-.carousel-item {
-    font-size: 100%;
-    font-family: 'Tomorrow', sans-serif;
-    color: #CCCCCC;
-    height: 500px;
-    width: 800px;
+.carousel-img{
+    margin-left:10%;
+    height: 950px;
+    width: 80%;
 }
 
-.carousel-inner {
-    height: 500px;
-    width: 800px;
+@media only screen and (max-width: 768px) {
+    .carousel-img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
 }
+
 .container {
     display: flex; 
     flex-direction: row;
