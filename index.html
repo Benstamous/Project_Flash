@@ -155,112 +155,37 @@
       </div>
     </nav>
 
-    <div
-      class="container-md d-flex justify-content-center w-200 p-3 h-200"
-      style="padding-top: 20px"
-    >
-      <div id="homeCarousel" class="carousel slide">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#homeCarousel"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#homeCarousel"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#homeCarousel"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#homeCarousel"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
-          ></button>
+    <!-- HP replaced the carousel -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner center">
+        <div class="carousel-item active" data-bs-interval="6000">
+          <img src="/images/javaScriptFighters.png" class="carousel-img" alt="...">
+          <div class="carousel-caption">
+            <h3>JAVASCRIPT FIGHTERS</h1>
+          </div>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img
-              src="/images/not-realeased-1.png"
-              class="d-block w-100"
-              style="height: 500px; width: 800px"
-            />
-            <!--BC changed image path-->
-            <div class="carousel-caption d-none d-md-block">
-              <br />
-              <br />
-              <br />
-              <h5>JavaScript Fighters</h5>
-              <p>2-player Fighting Game</p>
-            </div>
+        <div class="carousel-item" data-bs-interval="6000">
+          <img src="/images/not-realeased-1.png" class="carousel-img" alt="...">
+          <div class="carousel-caption">
+            <h3>GAME NOT YET RELEASED</h1>
           </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img
-              src="/images/not-realeased-1.png"
-              class="d-block w-100"
-              style="height: 500px; width: 800px"
-            />
-            <!--HP changed image path-->
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Game 2</h5>
-              <p>Description</p>
-            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="6000">
+          <img src="/images/not-realeased-1.png" class="carousel-img"alt="...">
+          <div class="carousel-caption">
+            <h3>GAME NOT YET RELEASED</h1>
           </div>
-          <div class="carousel-item">
-            <img
-              src="/images/not-realeased-1.png"
-              class="d-block w-100"
-              style="height: 500px; width: 800px"
-            />
-            <!--HP changed image path-->
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Game 3</h5>
-              <p>Description</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="/images/not-realeased-1.png"
-              class="d-block w-100"
-              style="height: 500px; width: 800px"
-            />
-            <!--HP changed image path-->
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Game 4</h5>
-              <p>Description</p>
-            </div>
-          </div>
-
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#homeCarousel"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#homeCarousel"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+        </div>
         </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
 
     <main>
@@ -272,11 +197,11 @@
           <div class="col-12">
             <div class="card">
               <img
-                src="./images/not-realeased-1.png"
+                src="/images/javaScriptFighters.png"
                 class="object-fit-contain"
                 style="border-radius: 10px"
               />
-              <!--BC changed image path-->
+              <!--HP corrected the image path-->
               <p class="card-text">New Release: JavaScript Fighters</p>
             </div>
           </div>
