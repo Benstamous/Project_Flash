@@ -19,21 +19,16 @@ body {
     background-image: linear-gradient(180deg, #cb2d6f,#501f3a, #0f2920);
 }
 
-.container-report{
+/* .container-report{ TBD
     margin-top: 50%;
-}
-
-/* #project-title {
-    align-items: center;
 } */
 
 #web-title {
-    padding-left: 15px;    
+    padding-left: 15px;
     font-size: 1.8rem;
     font-weight: 900;
     color: #0F292F;
 }
-
 
 .grid-item1 {
     grid-column: 1 / span 2;
@@ -43,9 +38,7 @@ body {
 
 #team-header {
     font-size: 2.5rem;
-    font-weight: 800;
-    -webkit-text-stroke: 2px #0F292F;
-    -webkit-text-fill-color: #CCCCCC;
+    color: #CCCCCC;
 }
 
 #main-container {
@@ -58,8 +51,8 @@ body {
 }
 
 .personImg {
-    width: 26vw;        
-    border: 3px solid ;  
+    width: 26vw;
+    border: 3px solid ;
     border-radius: 12px;
     border-image: linear-gradient(to left, #14A098, #CB2D6F) 1;
 }
@@ -73,13 +66,13 @@ body {
 }
 
 .bio-container {
-    width: 30vw;
-    margin-bottom: 15px;
+    width: 26vw;
+    margin-bottom: 5%;
 }
 
 .person-bio {
     font-size: 1rem;
-    margin-top: 4px;
+    margin-top: 10px;
     color: #CCCCCC;
 }
 
