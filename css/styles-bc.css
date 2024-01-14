@@ -22,10 +22,6 @@ h5 {
     color: white;
 }
 
-/* h1 {
-    font-weight: 800;
-} */
-
 body {
     background: #0F292F;
     font-family: 'Kdam Thmor Pro', sans-serif;
@@ -51,6 +47,6 @@ body {
     background-image: linear-gradient(#CB2D6F,#501F3A,#0F292F);
 }
 
-.container-report{
-    margin-top: 95%;
-}
+/* .container-report{ TBD
+    margin-top: 50%;
+} */

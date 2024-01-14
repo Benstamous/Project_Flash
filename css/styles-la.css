@@ -15,8 +15,8 @@ body {
 
 .main {
     min-height: 100vh;
-
 }
+
 .dfooter {
     text-align: center;
     color: white;
@@ -26,7 +26,6 @@ body {
     height: 15rem;
     background-image: linear-gradient(#0F292F,#501F3A,#CB2D6F);  
 }
- 
 
 .card {
     font-size: 20px;
@@ -50,12 +49,10 @@ body {
     padding: 10px;
 }
 
-
-
 .navbar {
     padding: 30px;
     margin: 0;
-    background-image: linear-gradient(#501F3A,#CB2D6F,#501F3A,#0F292F); /*changed by HP */ 
+    background-image: linear-gradient(#501F3A,#CB2D6F,#501F3A,#0F292F); /*changed by HP */
     height: 10rem; /*added by HP*/
 }
 
@@ -63,15 +60,12 @@ body {
     background-image: linear-gradient(#CB2D6F,#501F3A,#0F232F);
 }
 
-/* q: */
-
 /* HP Changed the carousel styles*/
 
 .carousel{
     margin-top: 3%;
     margin-bottom: 7%;
 }
-
 
 .carousel-img{
     margin-left:10%;
@@ -96,12 +90,15 @@ body {
     max-width: 680px;
   }
 
+/* .container-report{ TBD
+    margin-top: 50%;
+} */
 
 p {
     color: #CCCCCC;
     align-items: center;
 }
+
 h2 {
     color: #CCCCCC;
 }
-

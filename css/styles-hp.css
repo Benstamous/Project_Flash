@@ -25,9 +25,9 @@ body {
     padding: 30px;
 }
 
-.container-report{
+/* .container-report{ TBD
     margin-top: 50%;
-}
+} */
 
 .card {
     background-image: linear-gradient(180deg, #cb2d6f,#501f3a, #0f2920);
