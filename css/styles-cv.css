@@ -52,6 +52,7 @@ body {
 
 .personImg {
     width: 26vw;
+    height: 26vw; /* HP added, this maintains the same height after adding gif*/
     border: 3px solid ;
     border-radius: 12px;
     border-image: linear-gradient(to left, #14A098, #CB2D6F) 1;
